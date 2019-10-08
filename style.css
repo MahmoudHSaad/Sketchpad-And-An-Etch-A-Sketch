@@ -1,0 +1,187 @@
+.all{
+
+width: 100%;
+left: 0px;
+top: 0px;
+position: absolute;
+
+background-size: 100%;
+    
+}
+
+.tittel{
+
+width: 100%;
+height: 400px;
+position: relative;
+padding: 20px;
+margin: 0px 0px -320px 0px ; 
+background-image: linear-gradient(#F3C2C2 95%,#685D5D 5%);
+    z-index: -1;
+    
+}
+
+
+.container{
+    display: grid; 
+    width: 600px;
+    height:600px;
+    margin: auto 370px;     
+    border: 10px solid #60546C;
+    box-sizing: border-box;
+    border-radius:15px;
+    background-color: white;
+
+ 
+}
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Balonku-Regular.otf);
+     font-weight: 100 ;
+}
+@font-face {
+  font-family: mysecondFont;
+  src: url(WickedMouse-aGoK.ttf);
+  font-weight:bold ;
+}
+
+h1{
+    font-family: myFirstFont;
+    font-size: 40px;
+    font-style: inherit;
+      
+    color: #60546C;  
+    text-align: center;
+    padding: 20px 30px;
+    margin: 10px ;
+    top: 0px;
+    
+    
+ 
+  
+}
+h2{
+    font-family: mysecondFont;
+    font-size: 30px ;
+    text-align: center;
+    color: #1364C0; 
+    padding: 20px 30px;
+    margin:30px 0px 0px 0px   ;
+
+    
+}
+
+
+.buttons{   
+     border: 2px solid black;
+     position: relative;
+     padding: 20px;
+     height: 246px;
+     border: 3px solid #F3A7A7;
+     border-radius: 15px;
+     width: 325px;
+     left: 0px;
+     bottom: 0px;
+     position: absolute; 
+     background-color:#B8ADCE;
+     
+}
+
+
+.Enter{   
+
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  left: 40px;
+}
+
+button#black{
+    background-color: black;
+    border-radius: 10px;
+    margin: 0px 0px 0px 33px;
+
+}
+button#blue{
+    background-color: blue;
+    border-radius: 10px;
+}
+button#randCOL{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+    border-radius: 10px;
+
+}
+button#clear{
+    background-color: #937FA4;
+    border-radius: 10px;
+}
+button#add{
+    background-color: #7CC9BF;
+    border-radius: 10px;
+}
+
+.aa{
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 10px;
+    right: 65px ;
+    top: 280px;
+    border: 2px solid #60546C;
+    background-image: linear-gradient(#F3C2C2 150px, #fff );
+  
+
+}
+#iNum{
+    right: 65px;
+    bottom: -78px;
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    color: #585252;
+    z-index: 555;
+    border: 2px solid #60546C;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10px; 
+    font-weight: 100;
+    font-family: mysecondFont;
+    background-color: #FCF0F0;
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

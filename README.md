@@ -1,2 +1,2 @@
-# Sketchpad-And-An-Etch-A-Sketch
-Sketchpad And An Etch-A-Sketch Project As A Requirement For Code Academy Application - GSG
+Sketchpad And An Etch-A-Sketch <br />
+Created As An Aacceptance Requirement For GSG Code Academy Application .
